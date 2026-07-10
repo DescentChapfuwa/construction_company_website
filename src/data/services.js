@@ -47,4 +47,4 @@ const services = [
 
 ];
 
-export default services;
+export {services}

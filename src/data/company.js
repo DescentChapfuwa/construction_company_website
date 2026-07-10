@@ -14,6 +14,29 @@ const company = {
 
   address: "Chiredzi, Zimbabwe",
 
+  history:
+    "Our company was established with the vision of providing high-quality construction services, reliable brick manufacturing and professional property management. Over the years we have grown into a trusted partner for residential, commercial and industrial projects.",
+
+  mission:
+    "To deliver quality construction solutions through skilled workmanship, durable materials and exceptional customer service.",
+
+  vision:
+    "To become Zimbabwe's leading construction and property solutions company.",
+
+  values: [
+    "Integrity",
+
+    "Quality",
+
+    "Innovation",
+
+    "Teamwork",
+
+    "Customer Satisfaction",
+
+    "Safety",
+  ],
+
   businessHours: {
     weekdays: "Monday - Friday : 8AM - 5PM",
 
@@ -35,4 +58,4 @@ const company = {
   },
 };
 
-export default company;
+export default company 

@@ -26,4 +26,4 @@ value:"1M+"
 
 ];
 
-export default statistics;
+export default statistics 

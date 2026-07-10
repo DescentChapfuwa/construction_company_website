@@ -41,4 +41,4 @@ image:"/images/projects/project3.jpg"
 
 ];
 
-export default projects;
+export {projects}

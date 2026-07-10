@@ -20,11 +20,11 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-8">
           {navigation.map((link) => (
             <Link
-              key={link.name}
+              key={link.title}
               to={link.path}
               className="font-medium text-gray-700 hover:text-[#F4B400] transition"
             >
-              {link.name}
+              {link.title}
             </Link>
           ))}
 
@@ -54,12 +54,12 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-lg">
           {navigation.map((link) => (
             <Link
-              key={link.name}
+              key={link.title}
               to={link.path}
               onClick={() => setIsOpen(false)}
               className="block px-6 py-4 border-b hover:bg-gray-100"
             >
-              {link.name}
+              {link.title}
             </Link>
           ))}
 
@@ -67,7 +67,7 @@ const Navbar = () => {
             href="https://wa.me/263771649030"
             target="_blank"
             rel="noopener noreferrer"
-            className="block m-6 text-center bg-[#F4B400] rounded-full py-3 font-semibold"
+            className="block m-6 text-center bg-[#F4B400] rounded-full py-3 font-semibold mb-3"
           >
             Get Quote
           </a>

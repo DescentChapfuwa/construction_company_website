@@ -20,4 +20,4 @@ const properties = [
   },
 ];
 
-export default properties;
+export {properties}

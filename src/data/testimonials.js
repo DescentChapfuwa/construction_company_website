@@ -29,4 +29,4 @@ message:
 
 ];
 
-export default testimonials;
+export {testimonials}

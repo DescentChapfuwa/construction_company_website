@@ -22,6 +22,13 @@ const team = [
 
     image: "/images/team/supervisor.jpg",
   },
+  {
+    name: "Site Supervisor",
+
+    position: "Construction",
+
+    image: "/images/team/supervisor.jpg",
+  }
 ];
 
-export default team;
+export default team
