@@ -1,5 +1,5 @@
 import SectionTitle from "../common/SectionTitle";
-import { steps } from "../../data/steps";
+import steps from '/src/data/steps.js';
 
 const Process = () => {
   return (

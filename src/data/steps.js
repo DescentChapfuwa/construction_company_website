@@ -12,4 +12,4 @@ const steps = [
   "Project Delivery",
 ];
 
-export { steps };
+export default steps;
