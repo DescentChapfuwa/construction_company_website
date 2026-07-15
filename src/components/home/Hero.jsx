@@ -5,7 +5,7 @@ const Hero = () => {
     <section
       className="relative h-screen flex items-center bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/construction/hero.png')",
+        backgroundImage: "url('/images/construction/hero.jpg')",
         backgroundSize: "100%",
       }}
     >

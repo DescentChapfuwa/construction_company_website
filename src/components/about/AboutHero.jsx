@@ -5,7 +5,7 @@ const AboutHero = () => {
     <section
       className="relative h-[60vh] bg-cover bg-center flex items-center"
       style={{
-        backgroundImage: "url('/images/about/about-hero.jpg')",
+        backgroundImage: "url('/images/about/about_hero.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black/60"></div>

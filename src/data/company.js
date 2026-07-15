@@ -42,20 +42,18 @@ const company = {
 
     saturday: "Saturday : 8AM - 1PM",
 
-    sunday: "Closed",
+    sunday: "Sunday - Closed",
   },
 
   social: {
-    facebook: "#",
+    facebook: "https://facebook.com",
 
-    instagram: "#",
+    instagram: "https://instagram.com",
 
-    linkedin: "#",
+    linkedin: "https://linkedin.com",
 
-    tiktok: "#",
-
-    youtube: "#",
+    tiktok: "https://tiktok.com",
   },
 };
 
-export default company 
+export default company;
